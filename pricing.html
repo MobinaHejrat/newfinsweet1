@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/css/main.css">
+</head>
+<body>
+      <!--start project-->
+  <div class="w-[100%] dark:bg-[blue]">
+        <!--menu-->
+        <div class="bg-[#1C1E53] w-full h-[92px] ">
+          <div class="flex  items-center w-[90%] lg:w-[100%] ">
+            <div class="w-[30%] lg:w-[20%] h-[92px] bg-[#1C1E53] flex items-center justify-end ">
+              <img src="./public/images/svg/logo copy.svg" alt="">
+            </div>
+            <div class="w-[100%] h-[92px] flex justify-end ">
+              <div class="nav-links md:static w-full lg:w-[100%] md:w-auto px-5 
+              h-[400px] md:h-[92px] md:min-h-fit left-0 top-[-100%] bg-[#1C1E53] flex flex-col gap-16 md:gap-12 justify-start lg:justify-end items-center md:flex-row md:flex-nowrap absolute  ">
+                <ul class="md:flex  md:flex-row md:items-center gap-5 md:gap-[20px] ">
+                  <li>
+                    <a href="./index.html" class="hover:border-b-[2px] hover:border-solid hover:border-[#FFFFFF] linkitem1 leading-[30px] ">Home</a></li>
+                    <li> <a href="./aboutus.html" class="hover:border-b-[2px] hover:border-solid hover:border-[#FFFFFF] linkitem1 leading-[30px]">About us</a></li>
+                    <li> <a href="./features.html" class="hover:border-b-[2px] hover:border-solid hover:border-[#FFFFFF] linkitem1 leading-[30px]">Features</a></li>
+                    <li> <a href="./pricing.html" class="hover:border-b-[2px] hover:border-solid hover:border-[#FFFFFF] linkitem1 leading-[30px]">Pricing</a></li>
+                    <li> <a href="./faq.html" class="hover:border-b-[2px] hover:border-solid hover:border-[#FFFFFF] linkitem1 leading-[30px]">FAQ</a></li>
+                    <li> <a href="./blog.html" class="hover:border-b-[2px] hover:border-solid hover:border-[#FFFFFF] linkitem1 leading-[30px]">Blog</a></li>
+                    <li><a href="contactus.html" class="h-[20px] leading-[20px] md:h-[40px] border-[1px] rounded-[50px] linkitem1 md:leading-[40px]">Contact us</a></li>
+                </ul>
+  
+              </div>
+  
+            </div>
+            <div class="w-[15%] lg:w-[0%] h-[inherit] flex justify-center items-center gap-6">
+              <img onclick="ontogglemenu(this)" class="text-3xl cursor-pointer md:hidden" src="./public/images/svg/iconmenu.svg" alt="">
+            </div>
+          </div>
+         </div>
+
+        <!--end menu-->
+
+     <!--subject-->
+
+     <div class="w-[100%] h-auto lg:h-[240px] flex justify-center items-center dark:bg-[blue] mt-[20px] lg:mt-[0px] relative">
+      <button onclick="Darkness()" class="w-[7%] h-[27px] absolute top-0 left-0 bg-gradient-to-r from-[yellow]/100 to-[gray]/70 text-[#2b2b2b] text-[14px]
+      font-[PoppinsRegular] text-center rounded-[20px]"><strong>Dark</strong></button>
+
+
+        
+           <div class="w-[100%] lg:w-[50%] h-auto lg:h-[240px] flex flex-col justify-center items-center  mt-[10px] lg:mt-[30px] dark:bg-[blue]">
+            <h2 class="second_heading text-center">our pricing plans</h2>
+            <p class="first_para text-[#1c1e53] dark:text-[white] text-center">When you’re ready to go beyond prototyping in Figma, Webflow is ready to help you bring your designs to life — without coding them.</p>
+           </div>
+
+     </div>
+
+     <!--subject-->
+
+     <!--pricingpart-->
+       <div class="w-[100%] h-auto lg:h-[800px] flex justify-center items-center mt-[100px] lg:mt-[0px]">
+         
+         <div class="w-[80%] lg:w-[100%] h-auto lg:h-[750px] flex flex-col lg:flex-row lg:flex-nowrap gap-5 justify-center items-center dark:dark:bg-[blue]">
+
+          <div class="w-[100%] h-auto lg:h-[745px] flex flex-col  items-center bg-[#f4f6fc]  gap-1 rounded-[15px] ">
+            <div class="w-[80%] h-[70px] flex flex-row flex-nowrap gap-2">
+                <p class="fisrt_para font-[PoppinsBold] text-[27px] text-[#1c1e53]">$299</p>
+                <p class="first_para text-[blue]">per design</p>
+            </div>
+
+          <div class="w-[80%] h-[200px] flex flex-col ">
+            <h5 class="first_heading text-[#1c1e53] text-[20px] font-[PoppinsBold] ">landing page</h5>
+            <p class="first_para  text-[#1c1e53]">When you’re ready to go beyond prototyping in Figma, </p>
+          </div>  
+
+
+          <div class="w-[80%] h-auto lg:h-[350px] flex flex-col gap-4 ">
+            <div class="flex flex-row flex-nowrap justify-start ">
+                <img src="./public/images/svg/green.svg" alt="">
+                <p class="first_para text-[#1c1e53]">All animated links</p>
+            </div>
+               
+            <div class="flex flex-row flex-nowrap justify-start ">
+                <img src="./public/images/svg/green.svg" alt="">
+                <p class="first_para text-[#1c1e53]">Own analytics platform</p>
+            </div>
+
+            <div class="flex flex-row flex-nowrap justify-start ">
+                <img src="./public/images/svg/green.svg" alt="">
+                <p class="first_para text-[#1c1e53]">Chat support</p>
+            </div>
+
+            <div class="flex flex-row flex-nowrap justify-start ">
+                <img src="./public/images/svg/grey.svg" alt="">
+                <p class="first_para text-[#1c1e53]">Optimize hashtags</p>
+            </div>
+
+            <div class="flex flex-row flex-nowrap justify-start ">
+                <img src="./public/images/svg/grey.svg" alt="">
+                <p class="first_para text-[#1c1e53]">Unlimited users</p>
+            </div>
+
+
+            
+
+
+
+
+          </div>
+
+          <div class="w-[80%] flex justify-start items-center">
+            <div class="bg-[#2b2b2b] w-[60%] h-[54px]  rounded-[40%] flex justify-center items-center">
+                <a class=" text-center font-[PoppinsRegular] leading-[40px] lg:leading-[54px] text-[white]" href="./work.html">view our work</a></div>
+
+          </div>
+
+
+             
+
+
+          </div>
+
+
+
+
+           <!--2-->
+          <div class=" w-[100%] h-auto lg:h-[745px] flex flex-col  items-center bg-gradient-to-tl from-[#1c1e53]/100 to-[#1c1e53]/60 gap-1 rounded-[15px]">
+            <div class="w-[80%] h-[70px] flex flex-row flex-nowrap gap-2">
+                <p class="fisrt_para font-[PoppinsBold] dark:text-[white] text-[#1c1e53] text-[27px]">$399</p>
+                <p class="first_para text-[yellow]">multi design</p>
+            </div>
+
+          <div class="w-[80%] h-[200px] flex flex-col ">
+            <h5 class="first_heading text-[#1c1e53] text-[20px] font-[PoppinsBold] ">landing page</h5>
+            <p class="first_para dark:text-[white] text-[#1c1e53]">When you’re ready to go beyond prototyping in Figma, </p>
+          </div>  
+
+
+          <div class="w-[80%] h-auto lg:h-[350px] flex flex-col gap-4 ">
+            <div class="flex flex-row flex-nowrap justify-start ">
+                <img src="./public/images/svg/green.svg" alt="">
+                <p class="first_para dark:text-[white] text-[#1c1e53]">All animated links</p>
+            </div>
+               
+            <div class="flex flex-row flex-nowrap justify-start ">
+                <img src="./public/images/svg/green.svg" alt="">
+                <p class="first_para dark:text-[white] text-[#1c1e53]">Own analytics platform</p>
+            </div>
+
+            <div class="flex flex-row flex-nowrap justify-start ">
+                <img src="./public/images/svg/green.svg" alt="">
+                <p class="first_para dark:text-[white] text-[#1c1e53]">Chat support</p>
+            </div>
+
+            <div class="flex flex-row flex-nowrap justify-start ">
+                <img src="./public/images/svg/grey.svg" alt="">
+                <p class="first_para dark:text-[white] text-[#1c1e53]">Optimize hashtags</p>
+            </div>
+
+            <div class="flex flex-row flex-nowrap justify-start ">
+                <img src="./public/images/svg/grey.svg" alt="">
+                <p class="first_para dark:text-[white] text-[#1c1e53]">Unlimited users</p>
+            </div>
+
+
+            
+
+
+
+
+          </div>
+
+          <div class="w-[80%] flex justify-start items-center">
+            <div class="bg-[#2b2b2b] w-[60%] h-[54px]  rounded-[40%] flex justify-center items-center">
+                <a class=" text-center font-[PoppinsRegular] leading-[40px] lg:leading-[54px] text-[white]" href="./work.html">view our work</a></div>
+
+          </div>
+
+
+             
+
+
+          </div>
+
+          <!--3-->
+
+          <div class="w-[100%] lg:w-[100%] h-auto lg:h-[745px] flex flex-col  items-center bg-[#f4f6fc]  gap-1  rounded-[15px]">
+            <div class="w-[80%] h-[70px] flex flex-row flex-nowrap gap-2">
+                <p class="fisrt_para font-[PoppinsBold] text-[#1c1e53] text-[27px]">$499+</p>
+                <p class="first_para text-[blue]">per design</p>
+            </div>
+
+          <div class="w-[80%] h-[200px] flex flex-col ">
+            <h5 class="first_heading text-[#1c1e53] text-[20px] font-[PoppinsBold] ">complex project</h5>
+            <p class="first_para  text-[#1c1e53]">When you’re ready to go beyond prototyping in Figma, </p>
+          </div>  
+
+
+          <div class="w-[80%] h-auto lg:h-[350px] flex flex-col gap-4 ">
+            <div class="flex flex-row flex-nowrap justify-start ">
+                <img src="./public/images/svg/green.svg" alt="">
+                <p class="first_para text-[#1c1e53]">All animated links</p>
+            </div>
+               
+            <div class="flex flex-row flex-nowrap justify-start ">
+                <img src="./public/images/svg/green.svg" alt="">
+                <p class="first_para text-[#1c1e53]">Own analytics platform</p>
+            </div>
+
+            <div class="flex flex-row flex-nowrap justify-start ">
+                <img src="./public/images/svg/green.svg" alt="">
+                <p class="first_para text-[#1c1e53]">Chat support</p>
+            </div>
+
+            <div class="flex flex-row flex-nowrap justify-start ">
+                <img src="./public/images/svg/grey.svg" alt="">
+                <p class="first_para text-[#1c1e53]">Optimize hashtags</p>
+            </div>
+
+            <div class="flex flex-row flex-nowrap justify-start ">
+                <img src="./public/images/svg/grey.svg" alt="">
+                <p class="first_para text-[#1c1e53]">Unlimited users</p>
+            </div>
+
+
+            
+
+
+
+
+          </div>
+
+          <div class="w-[80%] flex justify-start items-center">
+            <div class="bg-[#2b2b2b] w-[60%] h-[54px]  rounded-[40%] flex justify-center items-center">
+                <a class=" text-center font-[PoppinsRegular] leading-[40px] lg:leading-[54px] text-[white]" href="./work.html">view our work</a></div>
+
+          </div>
+
+
+             
+
+
+          </div>
+        
+
+
+
+          <!--3-->
+         </div> 
+
+       </div>
+
+
+
+
+
+
+     <!--pricingpart-->
+     <!--fAQ-->
+     <div class="w-[100%] h-auto lg:h-[900px] bg-[#FFFFFF] flex justify-center dark:bg-[#2f315a] mt-[100px] lg:mt-[0px]">
+      <div class="w-[80%] h-auto lg:h-[600px]  flex flex-col lg:flex  lg:flex-row lg:flex-nowrap lg:justify-center lg:items-center lg:mt-[50px] lg:gap-x-20">
+        <div class="w-[100%] lg:w-[30%] h-auto lg:h-[30%] lg:mb-[340px] flex flex-col justify-center items-center">
+          <h3 class="fon-[PoppinsBold] font-semibold text-[16px] lg:text-[35px] leading-[37px] lg:leading-[56px] dark:bg-[grey] dark:rounded-[20px] text-[#282938]">Frequently asked questions</h3>
+          <a href="#" class="first_para text-center lg:text-justify text-[#2405F2] ">Contact us for more info</a>
+        </div>
+        <div class="w-[100%] h-auto lg:w-[70%] lg:h-[530px] ">
+          
+          <div class="collapse collapse-plus bg-base-200">
+            <input type="radio" name="my-accordion-3" checked="checked" />
+            <div class="collapse-title text-xl font-medium collapsediv">
+              <h6 class="text-[blue] text-[20px] lg:text-[36px] leading-[40px]">01</h6>
+              <h6 class="second_heading dark:text-[black] text-[19px] lg:text-[30px]">How much time does it take?</h6>
+            </div>
+            <div class="collapse-content">
+              <p class="first_para text-[#1c1e53]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus bg-base-200">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium collapsediv">
+              <h6 class="text-[blue] text-[20px] lg:text-[36px] leading-[40px]">02</h6>
+              <h6 class="second_heading dark:text-[black] text-[19px] lg:text-[30px]">What is your class naming convention?</h6>
+            </div>
+            <div class="collapse-content">
+              <p class="first_para text-[#1c1e53]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus bg-base-200">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium collapsediv">
+              <h6 class="text-[blue] text-[20px] lg:text-[36px] leading-[40px]">03</h6>
+              <h6 class="second_heading dark:text-[black] text-[19px] lg:text-[30px]">How do you communicate?</h6>
+            </div>
+            <div class="collapse-content">
+              <p class="first_para text-[#1c1e53]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus bg-base-200">
+            <input type="radio" name="my-accordion-3" checked="checked" />
+            <div class="collapse-title text-xl font-medium collapsediv">
+              <h6 class="text-[blue] text-[20px] lg:text-[36px] leading-[40px]">04</h6>
+              <h6 class="second_heading dark:text-[black] text-[19px] lg:text-[30px]">I have a bigger project. Can you handle it?</h6>
+            </div>
+            <div class="collapse-content">
+              <p class="first_para text-[#1c1e53]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus bg-base-200">
+            <input type="radio" name="my-accordion-3" checked="checked" />
+            <div class="collapse-title text-xl font-medium collapsediv">
+              <h6 class="text-[blue] text-[20px] lg:text-[36px] laeding-[40px]">05</h6>
+              <h6 class="second_heading dark:text-[black] text-[19px] lg:text-[30px]">What is your class naming convention?</h6>
+            </div>
+            <div class="collapse-content">
+              <p class="first_para text-[#1c1e53]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+     <!--fAQ-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!--footer-->
+ <div class="w-[100%] h-auto lg:h-[490px] bg-[#ECECF1] mt-[20px] lg:mt-[0px]">
+  <div class="w-[100%]  h-auto bg-[#1C1E53] flex flex-col items-center justify-center gap-10 lg:flex-row lg:flex-nowrap lg:h-[397px] lg:items-end ">
+    <div class="w-[100%] h-auto lg:w-[40%] lg:h-[300px] ">
+      <img src="./public/images/svg/logo copy.svg" alt="">
+      <p class="para_footer text-[white] mt-[30px]">We are always open to discuss your project and improve your online presence.</p>
+      <div class="w-[100%] h-auto lg:h-[95px] bg-[#FCD980] flex flex-row flex-nowrap mt-[94px]">
+        <div class="w-[50%] h-[inherit]  flex flex-col justify-center">
+          <p class="font-[PoppinsBold] font-medium text-[18px] leading-[32px] text-[#282938] ml-[5px] ">Email me at</p>
+          <p class="paralink ml-[5px]">contact@website.com</p>
+        </div>
+        <div class="w-[50%] h-[inherit] flex flex-col justify-center ">
+          <p class="font-[PoppinsBold] font-medium text-[18px] leading-[32px] text-[#282938] ml-[5px]">Call us</p>
+          <p class="paralink ml-[5px]">0927 6277 28525</p>
+        </div>
+      </div>
+    </div>
+    <div class="w-[100%] h-auto lg:w-[40%] lg:h-[300px]">
+      <h2 class="font-[PoppinsBold] font-semibold text-[30px] leading-[50px] text-[#FFFFFF] lg:text-[48px] lg:leading-[64px]">Lets Talk!</h2>
+      <p class="para_footer mt-[2px]">We are always open to discuss your project, improve your online presence and help with your UX/UI design challenges.</p>
+      <div class="w-[40%] h-auto lg:h-[18px]  flex flex-row flex-nowrap gap-x-4 mt-[65px]">
+        <img src="./public/images/svg/facebook.svg" alt="">
+        <img src="./public/images/svg/twitter.svg" alt="">
+        <img src="./public/images/svg/instagram.svg" alt="">
+        <img src="./public/images/svg/linkedin.svg" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="w-[100%] h-[92px] bg-[#ECECF1] flex flex-col lg:flex-row lg:flex-nowrap">
+    <div class="w-[100%] h-[inherit]  flex flex-row flex-nowrap justify-center items-center lg:w-[40%]">
+      <p class="paralink mr-[40px] lg:mr-[40px]">Copyright 2022, Finsweet.com</p>
+    </div>
+    <div class="w-[100%] h-[inherit] flex flex-row flex-nowrap gap-x-[10px] lg:gap-x-[34px] justify-center lg:justify-end items-center pr-[30px] lg:pr-[60px] lg:w-[60%]">
+
+      <div class="item"><a href="index.html" class="linkitem1 text-[#282938] hover:border-b-[2px] border-[#282938]">Home</a></div>
+          <div class="item"><a href="aboutus.html" class="linkitem1 hover:border-b-[1px] text-[#282938] border-[#282938] ">About us</a></div>
+          <div class="item"><a href="features.html" class="linkitem1 hover:border-b-[1px] text-[#282938] border-[#282938]">Features</a></div>
+          <div class="item"><a href="pricing.html" class="linkitem1 hover:border-b-[1px] text-[#282938] border-[#282938]">Pricing</a></div>
+          <div class="item"><a href="FAQ.html" class="linkitem1 hover:border-b-[1px] text-[#282938] border-[#282938]">FAQ</a></div>
+          <div class="item"><a href="blog.html" class="linkitem1 hover:border-b-[1px] text-[#282938] border-[#282938]">Blog</a></div>
+       
+
+    </div>
+  </div>
+</div>
+<!--footer-->
+
+
+
+  </div>
+  <!--end project-->
+
+
+
+  <script>
+    function Darkness(){
+      var element =document.body;
+      element.classList.toggle("dark")
+    }
+ 
+  </script>
+  <script>
+    const navlinks=document.querySelector('.nav-links')
+    function ontogglemenu(e){
+      navlinks.classList.toggle('top-[17%]')
+    }
+  </script>
+
+    
+</body>
+</html>

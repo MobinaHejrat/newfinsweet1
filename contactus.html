@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/css/main.css">
+</head>
+<body>
+      <!--start project-->
+  <div class="w-[100%]  dark:bg-[#2e2c2a]">
+    <div class="bg-[#1C1E53] w-full h-[92px]  ">
+
+      <div class="flex  items-center w-[90%] lg:w-[100%] ">
+        <div class="w-[30%] lg:w-[20%] h-[92px] bg-[#1C1E53] flex items-center justify-end ">
+          <img src="./public/images/svg/logo copy.svg" alt="">
+        </div>
+        <div class="w-[100%] h-[92px] flex justify-end ">
+          <div class="nav-links md:static w-full lg:w-[100%] md:w-auto px-5 
+          h-[400px] md:h-[92px] md:min-h-fit left-0 top-[-100%] bg-[#1C1E53] flex flex-col gap-16 md:gap-12 justify-start lg:justify-end items-center md:flex-row md:flex-nowrap absolute  ">
+            <ul class="md:flex  md:flex-row md:items-center gap-5 md:gap-[20px] ">
+              <li>
+                <a href="./index.html" class="hover:border-b-[2px] hover:border-solid hover:border-[#FFFFFF] linkitem1 leading-[30px] ">Home</a></li>
+                <li> <a href="./aboutus.html" class="hover:border-b-[2px] hover:border-solid hover:border-[#FFFFFF] linkitem1 leading-[30px]">About us</a></li>
+                <li> <a href="./features.html" class="hover:border-b-[2px] hover:border-solid hover:border-[#FFFFFF] linkitem1 leading-[30px]">Features</a></li>
+                <li> <a href="./pricing.html" class="hover:border-b-[2px] hover:border-solid hover:border-[#FFFFFF] linkitem1 leading-[30px]">Pricing</a></li>
+                <li> <a href="./faq.html" class="hover:border-b-[2px] hover:border-solid hover:border-[#FFFFFF] linkitem1 leading-[30px]">FAQ</a></li>
+                <li> <a href="./blog.html" class="hover:border-b-[2px] hover:border-solid hover:border-[#FFFFFF] linkitem1 leading-[30px]">Blog</a></li>
+                <li><a href="contactus.html" class="h-[20px] leading-[20px] md:h-[40px] border-[1px] rounded-[50px] linkitem1 md:leading-[40px]">Contact us</a></li>
+            </ul>
+
+          </div>
+
+        </div>
+        <div class="w-[15%] lg:w-[0%] h-[inherit] flex justify-center items-center gap-6">
+          <img onclick="ontogglemenu(this)" class="text-3xl cursor-pointer md:hidden" src="./public/images/svg/iconmenu.svg" alt="">
+        </div>
+      </div>
+     </div>
+    <!--end menu-->
+
+   
+
+    <!--subject-->
+    <div class="w-[100%] h-auto lg:h-[1300px] flex flex-col gap-4 justify-center items-center relative">
+      <button onclick="Darkness()" class="w-[7%] h-[27px] absolute top-0 left-0 bg-gradient-to-r from-[yellow]/100 to-[gray]/70 text-[#2b2b2b] text-[14px]
+      font-[PoppinsRegular] text-center rounded-[20px]"><strong>Dark</strong></button>
+
+       <div class="w-[100%] h-auto lg:h-[240px] flex justify-center items-center 
+     mt-[20px] lg:mt-[0px] ">
+
+        
+        <div class="w-[100%] lg:w-[50%] h-auto lg:h-[240px] flex flex-col justify-center items-center  mt-[10px] lg:mt-[30px] ">
+
+         <h2 class="second_heading text-center">Contact Us</h2>
+         <p class="first_para text-[#1c1e53] dark:text-[white] text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, eligendi officia velit eveniet tenetur nesciunt.</p>
+        </div>
+
+       </div>
+
+
+      <div class="w-[80%] h-auto lg:h-[900px]  flex flex-col bg-[lightgrey] justify-center items-center gap-2">
+
+      <!--first-->
+      <div class="w-[90%] h-auto lg:h-[180px]">
+           
+        <form action="#" class="w-[100%] h-auto lg:h-[150px] flex flex-col lg:flex-row lg:flex-nowrap justify-center items-center gap-9">
+           <div class="w-[100%] h-[70px] lg:h-[150px] flex flex-col">
+          <p class="first_para text-[#282938]">name</p>
+          <input type="text" value="Name" placeholder="Name" class="w-[100%] lg:w-[80%] h-[70px] lg:h-[100px] rounded-[10px] lg:rounded-[10px] text-[gray]">
+           </div>
+           <div class="w-[100%] h-[70px] lg:h-[150px] flex  flex-col">
+            <p class="first_para text-[#282938]">Email</p>
+          <input type="email" value="email" placeholder="Email" class="w-[100%] lg:w-[80%] h-[70px] lg:h-[100px] rounded-[10px] lg:rounded-[10px] text-[gray]">
+          </div>
+        </form>
+       </div>
+
+      <!--first-->
+      <!--second-->
+      <div class="w-[90%] h-auto lg:h-[180px]">
+           
+        <form action="#" class="w-[100%] h-auto lg:h-[150px] flex flex-col lg:flex-row lg:flex-nowrap justify-center items-center gap-9">
+           <div class="w-[100%] h-[70px] lg:h-[150px] flex flex-col">
+          <p class="first_para text-[#282938]">subject</p>
+          <input type="text" value="subject" placeholder="subject" class=" w-[100%] lg:w-[80%] 
+           h-[70px] lg:h-[100px] rounded-[10px] text-[gray]">
+           </div>
+           <div class="w-[100%] h-[70px] lg:h-[150px] flex  flex-col">
+            <p class="first_para text-[#282938]">subject</p>
+          <input type="text" value="subject" placeholder="subject" class="w-[100%] lg:w-[80%] 
+            h-[70px] lg:h-[100px] rounded-[10px] text-[gray]">
+          </div>
+        </form>
+        
+
+       </div>
+
+
+
+      <!--second-->
+
+      <!--third-->
+      <div class="w-[90%] h-auto lg:h-[300px]">
+           
+        <form action="#" class="w-[100%] h-auto lg:h-[300px] flex flex-col lg:flex-row lg:flex-nowrap justify-center items-center gap-9">
+           <div class="w-[100%] h-auto lg:h-[250px] flex flex-col">
+          <p class="first_para text-[#282938]">subject</p>
+          <input type="text" value="subject" placeholder="subject" class="w-[100%] lg:w-[80%] h-[200px] lg:h-[300px] rounded-[18px] text-[gray]">
+           </div>
+
+        </form>
+      </div>
+       <!--third-->
+       <div class="w-[80%] h-[120px] ">
+        <a href="#" class=" hover:font-[PoppinsRegular] 
+        inline-block w-[300px] lg:w-[400px] h-[55px] lg:h-[64px] bg-[#2b2b2b] font-[PoppinsBold] text-center leading-[50px] lg:leading-[64px] text-[15px]  font-medium rounded-[41px] capitalize no-underline text-[white]">Send message</a>
+       </div>
+
+      </div>
+    </div> 
+    
+
+    <!--subject-->
+
+     <!--footer-->
+ <div class="w-[100%] h-auto lg:h-[490px] bg-[#ECECF1] mt-[20px] lg:mt-[0px]">
+  <div class="w-[100%]  h-auto bg-[#1C1E53] flex flex-col items-center justify-center gap-10 lg:flex-row lg:flex-nowrap lg:h-[397px] lg:items-end ">
+    <div class="w-[100%] h-auto lg:w-[40%] lg:h-[300px] ">
+      <img src="./public/images/svg/logo copy.svg" alt="">
+      <p class="para_footer text-[white] mt-[30px]">We are always open to discuss your project and improve your online presence.</p>
+      <div class="w-[100%] h-auto lg:h-[95px] bg-[#FCD980] flex flex-row flex-nowrap mt-[94px]">
+        <div class="w-[50%] h-[inherit]  flex flex-col justify-center">
+          <p class="font-[PoppinsBold] font-medium text-[18px] leading-[32px] text-[#282938] ml-[5px] ">Email me at</p>
+          <p class="paralink ml-[5px]">contact@website.com</p>
+        </div>
+        <div class="w-[50%] h-[inherit] flex flex-col justify-center ">
+          <p class="font-[PoppinsBold] font-medium text-[18px] leading-[32px] text-[#282938] ml-[5px]">Call us</p>
+          <p class="paralink ml-[5px]">0927 6277 28525</p>
+        </div>
+      </div>
+    </div>
+    <div class="w-[100%] h-auto lg:w-[40%] lg:h-[300px]">
+      <h2 class="font-[PoppinsBold] font-semibold text-[30px] leading-[50px] text-[#FFFFFF] lg:text-[48px] lg:leading-[64px]">Lets Talk!</h2>
+      <p class="para_footer mt-[2px]">We are always open to discuss your project, improve your online presence and help with your UX/UI design challenges.</p>
+      <div class="w-[40%] h-auto lg:h-[18px]  flex flex-row flex-nowrap gap-x-4 mt-[65px]">
+        <img src="./public/images/svg/facebook.svg" alt="">
+        <img src="./public/images/svg/twitter.svg" alt="">
+        <img src="./public/images/svg/instagram.svg" alt="">
+        <img src="./public/images/svg/linkedin.svg" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="w-[100%] h-[92px] bg-[#ECECF1] flex flex-col lg:flex-row lg:flex-nowrap">
+    <div class="w-[100%] h-[inherit]  flex flex-row flex-nowrap justify-center items-center lg:w-[40%]">
+      <p class="paralink mr-[40px] lg:mr-[40px]">Copyright 2022, Finsweet.com</p>
+    </div>
+    <div class="w-[100%] h-[inherit] flex flex-row flex-nowrap gap-x-[10px] lg:gap-x-[34px] justify-center lg:justify-end items-center pr-[30px] lg:pr-[60px] lg:w-[60%]">
+
+      <div class="item"><a href="index.html" class="linkitem1 text-[#282938] hover:border-b-[2px] border-[#282938]">Home</a></div>
+          <div class="item"><a href="aboutus.html" class="linkitem1 hover:border-b-[1px] text-[#282938] border-[#282938] ">About us</a></div>
+          <div class="item"><a href="features.html" class="linkitem1 hover:border-b-[1px] text-[#282938] border-[#282938]">Features</a></div>
+          <div class="item"><a href="pricing.html" class="linkitem1 hover:border-b-[1px] text-[#282938] border-[#282938]">Pricing</a></div>
+          <div class="item"><a href="FAQ.html" class="linkitem1 hover:border-b-[1px] text-[#282938] border-[#282938]">FAQ</a></div>
+          <div class="item"><a href="blog.html" class="linkitem1 hover:border-b-[1px] text-[#282938] border-[#282938]">Blog</a></div>
+       
+
+    </div>
+  </div>
+</div>
+
+
+    
+  <!--footer-->
+
+  </div>
+
+
+
+
+
+
+</div>
+  <!--end project-->
+
+
+ <script>
+   function Darkness(){
+     var element =document.body;
+     element.classList.toggle("dark")
+   }
+
+ </script>
+ <script>
+  const navlinks=document.querySelector('.nav-links')
+  function ontogglemenu(e){
+    navlinks.classList.toggle('top-[17%]')
+  }
+</script>
+
+    
+</body>
+</html>
